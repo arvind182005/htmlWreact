@@ -1,0 +1,203 @@
+/* header */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri, Arial, sans-serif;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f3f3;
+  padding: 6px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 5px 12px;
+  width: 500px;
+  border: 1px solid #ccc;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tabs-left {
+  display: flex;
+  gap: 18px;
+}
+
+.tabs-left span {
+  cursor: pointer;
+}
+
+.tabs-left .active {
+  border-bottom: 2px solid #217346;
+  font-weight: 600;
+  color: #217346;
+}
+
+.tabs-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.share {
+  background: #217346;
+  color: white;
+  border: none;
+  padding: 5px 14px;
+  border-radius: 4px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 6px 12px;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toolbar-right svg {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.toolbar-right svg:hover {
+  background: #e6e6e6;
+}
+
+button, select {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 4px 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.icon-btn {
+  font-size: 16px;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.icon-btn:hover {
+  background: #e6e6e6;
+}
+
+.formula-bar {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.name-box {
+  width: 60px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 4px;
+}
+
+.fx {
+  font-weight: bold;
+}
+
+.formula-bar input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+
+/* table */
+
+.table {
+   overflow-x: auto;
+}
+
+.row {
+  display: flex;
+  width: max-content; 
+}
+
+.cell {
+  width: 80px;
+  height: 20px;
+  border: 1px solid #d0d0d0;
+  flex-shrink: 0;
+}
+
+.header .cell {
+  background: #e6f4ea;
+  text-align: center;
+  font-weight: bold;
+}
+
+.row-num {
+  width: 50px;
+  background: #f1f3f4;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+}
+
+.corner {
+  width: 50px;
+  background: #e6f4ea;
+  border: 1px solid #d0d0d0;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 8px;
+  display: flex;
+  justify-content: first baseline;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.foot-item:hover {
+  background-color: #e8eaed;
+}
+
